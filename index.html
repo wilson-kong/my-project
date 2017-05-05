@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Wilson's projets</title>
+		<title>Boostrap</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<link href="styles/main.css" rel="stylesheet" type="text/css"/>
 	</head>
 	<body>
-		<header>
-			<div class="container">
-				<div class="logo">
-					<h1><a href='#'>Welcome to Wilson's projects!</h1>
+		<div class="jumbotron">
+			<div class="container text-center">
+				<h1>Wilson's projects</h1>
+				<p>Outline and description of the projects that I am currently working on, been a part of and future plans. </p>
+			</div>
+		</div>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+					<a class="navbar-brand" href="#">WK</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">About me</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">My Projects
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Project 1</a></li>
+								<li><a href="#">Project 2</a></li>
+								<li><a href="#">Project 3</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Contact Me</a></li>
+					</ul>
 				</div>
 			</div>
-		</header>
-		<div id="buffer"></div>
-		<div id="content">
-			<p>Hello!!!</p>
-			<p>Work in progress.</p>
-		</div>
+		</nav>
+		Work in progress.
+		<script type="text/javascript" src="scripts/main.js"></script>
 	</body>
 </html>
