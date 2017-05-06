@@ -1,10 +1,10 @@
 .navbar {
-	margin-bottom: 50px;
 	border-radius: 0;
+	margin-bottom: 0px;
 }
 
 .jumbotron {
-	margin-bottom: 0;
+	margin-bottom: 50px;
 }
 
 .navbar .navbar-nav {
@@ -18,10 +18,17 @@
 }
 
 .navbar-nav > li{
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 35px;
+	padding-right: 35px;
 }
 
 body {
     text-align: center;
+}
+
+.content-container {
+	float: center;
+	color: #666;
+	font-size: 13pt;
+	width: 34%;
 }
